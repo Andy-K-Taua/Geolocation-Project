@@ -1,0 +1,47 @@
+Geolocation-Project
+├── Brief\ &\ Workflow\ for\ Capacity\ section.txt
+├── backend
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src
+│       ├── controllers
+│       │   └── rating.controller.js
+│       ├── models
+│       │   └── rating.model.js
+│       ├── proxy.js
+│       └── routes
+│           └── rating.route.js
+├── frontend
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── AverageRatingComponent.jsx
+│   │   │   ├── GeocodeComponent.jsx
+│   │   │   ├── MapComponent.jsx
+│   │   │   ├── RatingComponent.jsx
+│   │   │   ├── RouteComponent.jsx
+│   │   │   └── StarRatingComponent.jsx
+│   │   ├── data
+│   │   │   └── suburbs.json
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   ├── Login.jsx
+│   │   │   ├── OriginDash.jsx
+│   │   │   ├── RecipientDash.jsx
+│   │   │   └── Signup.jsx
+│   │   └── utils
+│   │       └── useHighlightSuburb.js
+│   └── vite.config.js
+└── project_structure.txt
+
+13 directories, 31 files
