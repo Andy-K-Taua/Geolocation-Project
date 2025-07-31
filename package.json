@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "predeploy": "concurrently \"cd frontend && npm install\" \"cd backend && npm install\"",
     "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm start\""
   },
   "repository": {
