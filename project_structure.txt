@@ -25,6 +25,7 @@ Geolocation-Project
 │   │   │   └── react.svg
 │   │   ├── components
 │   │   │   ├── AverageRatingComponent.jsx
+│   │   │   ├── CalendarComponnet.jsx
 │   │   │   ├── GeocodeComponent.jsx
 │   │   │   ├── MapComponent.jsx
 │   │   │   ├── RatingComponent.jsx
@@ -42,6 +43,8 @@ Geolocation-Project
 │   │   └── utils
 │   │       └── useHighlightSuburb.js
 │   └── vite.config.js
+├── package-lock.json
+├── package.json
 └── project_structure.txt
 
-13 directories, 31 files
+13 directories, 34 files
