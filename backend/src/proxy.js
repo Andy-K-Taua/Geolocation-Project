@@ -30,10 +30,12 @@ app.get('/geocode', async (req, res) => {
   }
 });
 
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
+const frontendDistPath = path.join(__dirname, '../../frontend/dist');
+
+app.use(express.static(frontendDistPath));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
+  res.sendFile(path.join(frontendDistPath, 'index.html'));
 });
 
 app.use((err, req, res, next) => {
