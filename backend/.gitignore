@@ -1,7 +1,3 @@
 # // backend/.gitignore
 
-proxy.js
-node_modules/
-dist/
 .env
-*.js
