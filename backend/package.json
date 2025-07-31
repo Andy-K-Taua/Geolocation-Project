@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/proxy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/proxy.js"
   },
   "keywords": [],
   "author": "",
