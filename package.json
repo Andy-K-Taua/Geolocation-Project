@@ -1,0 +1,22 @@
+{
+  "name": "geolocation-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andy-K-Taua/Geolocation-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andy-K-Taua/Geolocation-Project/issues"
+  },
+  "homepage": "https://github.com/Andy-K-Taua/Geolocation-Project#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
